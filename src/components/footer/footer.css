@@ -1,0 +1,14 @@
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+}
+
