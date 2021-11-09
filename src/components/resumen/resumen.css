@@ -1,3 +1,21 @@
 .resumen {
   text-align: center;
 }
+
+.button-content{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.resu-button{
+  width: 50px;
+  min-width: auto;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+
+h2{
+  color: #B76E79;
+}

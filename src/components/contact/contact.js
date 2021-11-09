@@ -13,7 +13,7 @@ const Contact = () =>{
             <h2 className="tituloContact">Contacto!</h2>
 
             <Container>
-                <Row className="justify-content-md-center" style={{ padding:"40px", boxShadow:"7px -6px 24px -3px rgba(255,255,255,0.63)", borderRadius:"5px"  }}>
+                <Row className="justify-content-md-center" style={{ padding:"40px", borderRadius:"5px"  }}>
                     <Col xs={6} md={6} lg={6}>
                         <Form>
                         <Row className="mb-3">

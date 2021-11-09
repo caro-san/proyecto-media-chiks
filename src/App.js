@@ -10,6 +10,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Resumen from './components/resumen/resumen';
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -18,8 +19,6 @@ function App() {
           <Switch>
             <Route exact path="/">
               <Home/>
-              {/* <Custombutton texto="Twitter" color="#00ACEE" btnText="twitter"/>
-              <Custombutton texto="Facebook" color="#3b5998" btnText="facebook"/> */}
             </Route>
 
             <Route exact path="/contact">
@@ -29,7 +28,6 @@ function App() {
             <Route exact path="/resumen">
               <Resumen/>
             </Route>
-
           </Switch>
           <Footer/>
         </BrowserRouter>
